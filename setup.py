@@ -94,7 +94,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
+PACKAGE = "MeuPrimeiroPacoteLibpythonpro"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar a construção de projetos no curso Pytools"
 AUTHOR = "Arthur Régis Mais"
