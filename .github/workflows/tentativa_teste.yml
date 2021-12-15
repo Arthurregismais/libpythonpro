@@ -25,6 +25,7 @@ jobs:
     - name: Rodar os testes no GitHubActions
       run: |
         pytest MeuPrimeiroPacoteLibpythonpro --cov MeuPrimeiroPacoteLibpythonpro
-    - name: Executar o codecov
-      run: |
-        pipenv run codecov
+    - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v2
+        with:
+          fail_ci_if_error: true
