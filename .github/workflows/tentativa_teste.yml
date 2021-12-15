@@ -26,9 +26,11 @@ jobs:
     - name: Rodar os testes no GitHubActions
       run: |
         pytest MeuPrimeiroPacoteLibpythonpro --cov MeuPrimeiroPacoteLibpythonpro
-    - name: Run tests and collect coverage
+    - name: Rodar Testes Automáticos
         run: |
-          pip install pytest-cov
-          pytest --cov=./ --cov-report=xml
-    - name: Upload coverage to Codecov
-            uses: codecov/codecov-action@v2
+          pytest --cov=MeuPrimeiroPacoteLibpythonpro
+    - name: Relatório Coverage
+            env:
+              CODECOV_TOKEN='b568b53d-77d4-4d4c-8e9a-e9a5a5540484'
+            run: |
+              codecov
