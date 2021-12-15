@@ -28,7 +28,7 @@ jobs:
         pytest MeuPrimeiroPacoteLibpythonpro --cov MeuPrimeiroPacoteLibpythonpro
     - name: Rodar Testes Automáticos
       run: |
-        pytest MeuPrimeiroPacoteLibpythonpro --cov=MeuPrimeiroPacoteLibpythonpro
+        pytest MeuPrimeiroPacoteLibpythonpro --cov MeuPrimeiroPacoteLibpythonpro
     - name: Relatório Coverage
       env:
         CODECOV_TOKEN: 'b568b53d-77d4-4d4c-8e9a-e9a5a5540484'
