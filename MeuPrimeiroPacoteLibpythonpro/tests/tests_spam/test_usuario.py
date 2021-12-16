@@ -13,7 +13,7 @@ def test_salvar_usuario():
     conexao.fechar()
 
 
-def test_salvar_usuario():
+def test_listar_usuario():
     conexao = Conexao()
     sessao = conexao.gerar_sessao()
     usuarios = [Usuario(nome='Arthur'), Usuario(nome='Adevar')]

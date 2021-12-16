@@ -34,4 +34,3 @@ def test_remetente_invalido(remetente):
             'Fotos das obras da firma',
             'Ta faltando fotos mais recentes.'
         )
-    
