@@ -25,12 +25,12 @@ jobs:
 
     - name: Verificar a qualidade do código com Flake8
       run: |
-        flake8
+        pipenv run flake8
     - name: Rodar os testes no GitHubActions
       run: |
-        pytest MeuPrimeiroPacoteLibpythonpro --cov=MeuPrimeiroPacoteLibpythonpro
+        pipenv run pytest MeuPrimeiroPacoteLibpythonpro --cov=MeuPrimeiroPacoteLibpythonpro
     - name: Relatório Coverage
       env:
         CODECOV_TOKEN: 'b568b53d-77d4-4d4c-8e9a-e9a5a5540484'
       run: |
-        codecov
+        pipenv run codecov
