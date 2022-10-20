@@ -24,12 +24,8 @@
             "version": "==2021.10.8"
         },
         "charset-normalizer": {
-            "hashes": [
-                "sha256:1eecaa09422db5be9e29d7fc65664e6c33bd06f9ced7838578ba40d58bdf3721",
-                "sha256:b0b883e8e874edfdece9c28f314e3dd5badf067342e42fb162203335ae61aa2c"
-            ],
-            "markers": "python_version >= '3'",
-            "version": "==2.0.9"
+            "hashes": [],
+            "version": "==3.0.0"
         },
         "idna": {
             "hashes": [
@@ -79,12 +75,8 @@
             "version": "==2021.10.8"
         },
         "charset-normalizer": {
-            "hashes": [
-                "sha256:1eecaa09422db5be9e29d7fc65664e6c33bd06f9ced7838578ba40d58bdf3721",
-                "sha256:b0b883e8e874edfdece9c28f314e3dd5badf067342e42fb162203335ae61aa2c"
-            ],
-            "markers": "python_version >= '3'",
-            "version": "==2.0.9"
+            "hashes": [],
+            "version": "==3.0.0"
         },
         "codecov": {
             "hashes": [
